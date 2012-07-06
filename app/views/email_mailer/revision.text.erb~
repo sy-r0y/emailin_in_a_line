@@ -1,0 +1,5 @@
+<%= @greeting %>
+
+I command you to do the revision that is needed to be done
+
+<%= @email.body %>

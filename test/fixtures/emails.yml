@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  to: MyString
+  from: MyString
+  body: MyText
+  editors: MyText
+  send_at: 2012-06-10 02:32:27
+
+two:
+  to: MyString
+  from: MyString
+  body: MyText
+  editors: MyText
+  send_at: 2012-06-10 02:32:27
