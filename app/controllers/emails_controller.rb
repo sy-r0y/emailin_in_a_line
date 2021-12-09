@@ -5,11 +5,12 @@ class EmailsController < ApplicationController
   # GET /emails
   # GET /emails.json
   def index
+    
     @emails = Email.all
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @emails }
+      format.json {render json: @emails}
     end
   end
 
@@ -83,8 +84,6 @@ class EmailsController < ApplicationController
       format.json { head :no_content }
     end
   end
-
-
 
   private
   def send_pending
