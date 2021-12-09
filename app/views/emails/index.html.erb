@@ -1,5 +1,4 @@
 <h1>Listing emails</h1>
-
 <table>
   <tr>
     <th>To</th>
@@ -11,7 +10,6 @@
     <th></th>
     <th></th>
   </tr>
-
 <% @emails.each do |email| %>
   <tr>
     <td><%= email.to %></td>
@@ -24,8 +22,8 @@
     <td><%= link_to 'Destroy', email, confirm: 'Are you sure?', method: :delete %></td>
   </tr>
 <% end %>
-</table>
 
+</table>
 <br />
 
 <%= link_to 'New Email', new_email_path %>
